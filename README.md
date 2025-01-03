@@ -9,10 +9,10 @@
 3. How would you enable a notification to your email when messages are added to the DLQ?
     - To enable email notifications when messages are added to a Dead-letter Queue (DLQ), we can integrate the DLQ with Amazon SNS to trigger notifications. Here’s how you can do that:
 
-    1. Create an SNS Topic (use to send notification about DLQ messages)
-    2. Subscribe to the SNS Topic (subscriber email)
-    3. Create an EventBridge Rule (create rule to monitor messages in DLQ)
-    4. Set the Target as the SNS Topic (SNS Topic created as target)
-    4. Monitor DLQ Events (monitor even in subscriber email)
+        1. Create an SNS Topic (use to send notification about DLQ messages)
+        2. Subscribe to the SNS Topic (subscriber email)
+        3. Create an EventBridge Rule (create rule to monitor messages in DLQ)
+        4. Set the Target as the SNS Topic (SNS Topic created as target)
+        4. Monitor DLQ Events (monitor even in subscriber email)
 
-    
+
